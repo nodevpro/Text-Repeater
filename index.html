@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Duplicator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="cen">Text Repeater
+  by ᎮᏒꫝᎫꫝᎮꫝƬɪ༒ᏙϟᏙΣᏦ</h1>
+  <p><b>Instruction:</b> Enter The Text You Want To Repeat And Set The Number Of Repetition And Click On Generate Button</p>
+  
+  <form>
+    <fieldset>
+      <legend class="enter">Enter Details</legend>
+      <br>
+      <label class="enter">Enter Text: </label>
+      <input type="text" id="text"> <br>
+      <br>
+      <br>
+      <label class="enter">Number Of Repetition: </label>
+      <input id="num" type="number"><br>
+      <br>
+      <div class="cen">
+       <button type="button" id="btn" onclick="generate()">Generate</button></div>
+    </fieldset>
+  </form>
+  <div id="outputSection">
+   <br>
+   <h2 class="cen">Repeated Text</h2>
+   <div id="border">
+    <div id="result"></div>
+        <button type="button" id="copyBtn" onclick="copy()">Copy</button>
+        <button type="button" id="resetBtn" onclick="reset()">Reset</button>
+   </div>
+  </div>
+  <br>
+  <br>
+  <div class="cen bord">
+   <h2>Made By ᎮᏒꫝᎫꫝᎮꫝƬɪ༒ᏙϟᏙΣᏦ</h2>
+   <a href="https://www.instagram.com/prajapati_vivek_7007" target="_blank"><button id="insta">Insta Id</button></a>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
